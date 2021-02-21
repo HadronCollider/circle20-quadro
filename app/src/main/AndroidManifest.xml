@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.TestAppE">
-        <activity android:name=".log_in_op"></activity>
+        <activity android:name=".log_in_op" />
         <activity android:name=".mytickets" />
         <activity android:name=".log_in_user" />
         <activity android:name=".MainActivity">
