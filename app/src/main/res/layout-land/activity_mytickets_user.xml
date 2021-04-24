@@ -5,14 +5,14 @@
     android:id="@+id/filters"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mytickets">
+    tools:context=".mytickets_user">
 
     <TextView
         android:id="@+id/texttick"
         android:layout_width="138dp"
         android:layout_height="25dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="54dp"
         android:text="@string/mytickts"
         android:textColor="#000000"
         android:textSize="19.6sp"
@@ -23,8 +23,8 @@
         android:id="@+id/spinner1"
         android:layout_width="131dp"
         android:layout_height="32dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="107dp"
         android:background="@drawable/blueellips"
         android:spinnerMode="dialog"
         app:layout_constraintStart_toStartOf="parent"
