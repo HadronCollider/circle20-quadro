@@ -24,8 +24,7 @@ class mytickets_user : AppCompatActivity() {
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, data)
         val textView: TextView = findViewById<TextView>(R.id.ProfileName)
         val client = OkHttpClient()
-        val filtrOpen = findViewById<Button>(R.id.button)
-        val filtrClose = findViewById<Button>(R.id.button2)
+        var filtrOpen = findViewById<Button>(R.id.button)
         val user = intent.extras?.get("json")
         if (user == null) {
             Log.d("error", "-")
@@ -39,27 +38,7 @@ class mytickets_user : AppCompatActivity() {
         Log.d("ok_http_test_in_mytick", user.toString())
         filtrOpen.setOnClickListener() {
             startActivity(Intent(this, gallery_and_dok::class.java))
-            //Showchekboks()
         }
-        filtrClose.setOnClickListener() {
-            Closechekboks()
-        }
+    }
 
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spinner.adapter = adapter
-    }
-    private fun Showchekboks()
-    {
-        val checkBox1  = findViewById<FrameLayout>(R.id.checkbox1 )
-        val all_app = findViewById<FrameLayout>(R.id.all_app )
-        checkBox1.visibility = View.VISIBLE
-        all_app.alpha = 0.3F
-    }
-    private fun Closechekboks()
-    {
-        val checkBox1  = findViewById<FrameLayout>(R.id.checkbox1 )
-        val all_app = findViewById<FrameLayout>(R.id.all_app )
-        checkBox1.visibility = View.GONE
-        all_app.alpha = 1F
-    }
 }

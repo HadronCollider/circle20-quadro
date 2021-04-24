@@ -20,7 +20,7 @@ class gallery_and_dok : AppCompatActivity() {
             startActivity(Intent(this, document::class.java))
         }
         back.setOnClickListener() {
-            startActivity(Intent(this, mytickets_user::class.java))
+            finish()
         }
     }
 }
