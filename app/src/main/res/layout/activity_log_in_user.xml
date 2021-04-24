@@ -65,7 +65,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:maxLines="1" />
+            android:maxLines="1"
+            android:text="roman" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -90,9 +91,10 @@
             android:id="@+id/user_pass_user"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxLines="1"
             android:inputType="textPassword"
-            android:password="true" />
+            android:maxLines="1"
+            android:password="true"
+            android:text="123456" />
 
     </com.google.android.material.textfield.TextInputLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

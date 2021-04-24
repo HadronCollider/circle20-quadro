@@ -39,6 +39,9 @@ class mytickets_user : AppCompatActivity() {
         filtrOpen.setOnClickListener() {
             startActivity(Intent(this, gallery_and_dok::class.java))
         }
+        findViewById<Button>(R.id.detail_info).setOnClickListener(){
+            startActivity(Intent(this, ticket_detail::class.java))
+        }
     }
 
 }

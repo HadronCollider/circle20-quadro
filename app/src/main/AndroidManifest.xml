@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.TestAppE">
-        <activity android:name=".gallery_and_dok"></activity>
+        <activity android:name=".ticket_detail"></activity>
+        <activity android:name=".gallery_and_dok" />
         <activity android:name=".gallery" />
         <activity android:name=".document" />
         <activity android:name=".log_in_op" />

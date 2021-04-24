@@ -21,7 +21,9 @@ class document : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.document)
-
+        findViewById<Button>(R.id.back_to_zayvki).setOnClickListener(){
+            finish()
+        }
         val adapter = RecyclerViewAdapter()
 
 

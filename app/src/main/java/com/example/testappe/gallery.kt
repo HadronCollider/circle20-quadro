@@ -12,7 +12,7 @@ class gallery : AppCompatActivity() {
         setContentView(R.layout.gallery)
         val back = findViewById<Button>(R.id.back_to_zayvki)
         back.setOnClickListener() {
-            startActivity(Intent(this, gallery_and_dok::class.java))
+            finish()
         }
     }
 }

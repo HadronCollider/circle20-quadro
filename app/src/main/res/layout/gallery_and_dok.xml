@@ -10,38 +10,38 @@
         android:id="@+id/doc"
         android:layout_width="259dp"
         android:layout_height="57dp"
+        android:layout_marginBottom="35dp"
         android:backgroundTint="#4390a7"
         android:text="Документы"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.905"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="259dp"
         android:layout_height="57dp"
-        android:layout_marginBottom="400dp"
+        android:layout_marginBottom="50dp"
         android:backgroundTint="#4390a7"
         android:text="Результаты мониторинга"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <FrameLayout
         android:layout_width="148dp"
         android:layout_height="43dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#fff"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.042"
         tools:ignore="MissingConstraints">
 
 

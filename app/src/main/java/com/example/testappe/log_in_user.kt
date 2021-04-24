@@ -57,6 +57,7 @@ class log_in_user : AppCompatActivity() {
                     if (code != "500") {
                         val status = jsonObject.get("status")
                         TOKEN = jsonObject.get("token").toString()
+                        Log.d("mypopo", TOKEN)
                         if (status == "success") {
                             val newIntent = Intent(this, mytickets_user::class.java)
                             val request2 = GET(TOKEN)

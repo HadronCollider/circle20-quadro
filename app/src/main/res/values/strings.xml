@@ -8,4 +8,6 @@
     <string name="img">1</string>
     <string name="mytickts"><b>Мои заявки</b></string>
     <string name="wwww">Множественный выбор</string>
+    <string name="adawd">Тип исследования и дата</string>
+    <string name="adwfaw">Выбранный объект</string>
 </resources>
