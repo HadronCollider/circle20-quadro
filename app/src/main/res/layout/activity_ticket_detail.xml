@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ticket_detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/adawd"
+                android:textColor="#002033"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/adwfaw"
+                android:textColor="#99002033 "
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/selected_object"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="70dp"
+                android:text="selected_object"
+                android:textColor="#002033" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="110dp"
+                android:text="Тип съемки"
+                android:textColor="#99002033" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="110dp"
+                android:text="Предполагаемая дата вылета"
+                android:textColor="#99002033" />
+
+            <TextView
+                android:id="@+id/type_of_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="140dp"
+                android:text="type_of_photo"
+                android:textColor="#002033" />
+
+            <TextView
+                android:id="@+id/time_of_departure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="140dp"
+                android:text="time_of_departure"
+                android:textColor="#002033" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="180dp"
+                android:text="Комментарий"
+                android:textColor="#99002033" />
+
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="210dp"
+                android:text="Необходимо учесть сложность трубопровода. Нужно к отчету 22 декабря"
+                android:textColor="#002033" />
+
+            <View
+                android:layout_width="361dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="280dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="300dp"
+                android:text="Координаты"
+                android:textColor="#002033"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="340dp"
+                android:text="Координаты точки A"
+                android:textColor="#99002033" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="410dp"
+                android:text="Координаты точки B"
+                android:textColor="#99002033" />
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="480dp"
+                android:text="Координаты точки C"
+                android:textColor="#99002033" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="550dp"
+                android:text="Координаты точки D"
+                android:textColor="#99002033" />
+
+            <TextView
+                android:id="@+id/coordA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="365dp"
+                android:text="coordA"
+                android:textColor="#002033" />
+
+            <TextView
+                android:id="@+id/coordB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="435dp"
+                android:text="coordB"
+                android:textColor="#002033" />
+
+            <TextView
+                android:id="@+id/coordC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="505dp"
+                android:text="coordC"
+                android:textColor="#002033" />
+
+            <TextView
+                android:id="@+id/coordD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="575dp"
+                android:text="coordD"
+                android:textColor="#002033" />
+        </FrameLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/dffg"
+        android:layout_width="133dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/Strelka"
+            android:layout_width="17dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#fff"
+            android:text="&#10094;"
+            android:textColor="#b9c2c5"
+            android:textSize="22dp"
+            android:translationZ="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.037"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/back_to_zayvki"
+            android:layout_width="130dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="1dp"
+            android:backgroundTint="#fff"
+            android:text="Заявки"
+            android:textColor="#b9c2c5"
+            android:translationZ="1dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="80dp" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
